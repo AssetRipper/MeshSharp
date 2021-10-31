@@ -8,11 +8,11 @@
     <Version>1.0.0-alpha</Version>
     <PackageId>MeshIO</PackageId>
     <PackageTags>C# 3D</PackageTags>
-    <RepositoryUrl>https://github.com/DomCR/MeshIO</RepositoryUrl>
+    <RepositoryUrl>https://github.com/ds5678/MeshSharp</RepositoryUrl>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <RepositoryType>git</RepositoryType>
-    <PackageProjectUrl>https://github.com/DomCR/MeshIO</PackageProjectUrl>
-    <Copyright>Copyright (c) 2020 Albert Domenech</Copyright>
+    <PackageProjectUrl>https://github.com/ds5678/MeshSharp</PackageProjectUrl>
+    <Copyright>Copyright (c) 2021 ds5678</Copyright>
     <Description>3D library in pure C# that allows reading and writing in multiple formats.</Description>
   </PropertyGroup>
 
