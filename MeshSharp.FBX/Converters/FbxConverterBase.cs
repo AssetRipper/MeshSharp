@@ -596,7 +596,7 @@ namespace MeshSharp.FBX.Converters
 
 			public FbxNode ToNode()
 			{
-				FbxNode node = new FbxNode("FBXHeaderVersion");
+				FbxNode node = new FbxNode("FBXHeaderExtension");
 
 				node.Nodes.Add(new FbxNode("Creator", Creator));
 				node.Nodes.Add(new FbxNode("FBXVersion", (int)Version));
