@@ -348,10 +348,3 @@ MigrationBackup/
 
 # Ionide (cross platform F# VS Code tools) working folder
 .ionide/
-
-# Custom folders
-/file_samples
-/Utils
-
-# Exceptions
-!MeshIO.OBJ
