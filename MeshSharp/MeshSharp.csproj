@@ -3,8 +3,8 @@
   <PropertyGroup>
     <TargetFrameworks>net5.0;net48;netstandard2.1</TargetFrameworks>
     <LangVersion>9.0</LangVersion>
-    <Authors>DomCr</Authors>
-    <Company>MeshIO</Company>
+    <Authors>ds5678</Authors>
+    <Company>MeshSharp</Company>
     <Version>1.0.0-alpha</Version>
     <PackageId>MeshIO</PackageId>
     <PackageTags>C# 3D</PackageTags>
