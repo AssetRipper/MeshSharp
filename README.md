@@ -1,14 +1,35 @@
-# MeshIO ![Build](https://img.shields.io/github/workflow/status/DomCr/MeshIO/Build&Test/master)
+# MeshSharp ![Build](https://img.shields.io/github/workflow/status/ds5678/MeshSharp/Build&Test/master)
 
 C# 3D library.
 
-# MeshIO.FBX
-
-Based upon [FBXWriter](https://github.com/hamish-milne/FbxWriter) by [Hamish Milne](https://github.com/hamish-milne).
+## MeshSharp.FBX
 
 **Current features**:
 
 - Read and Write FBX binary files
 - Read and Write FBX ASCII files
 
-# MeshIO.GLTF
+## MeshSharp.GLTF
+
+Not yet implemented.
+
+## MeshSharp.OBJ
+
+Not yet implemented.
+
+## MeshSharp.PLY
+
+Not yet implemented.
+
+## MeshSharp.PMX
+
+Not yet implemented.
+
+## MeshSharp.STL
+
+Not yet implemented.
+
+
+## Credits
+
+This is a fork of [MeshIO](https://github.com/DomCR/MeshIO) licensed under the [MIT license](Licenses/MeshIO.md).
