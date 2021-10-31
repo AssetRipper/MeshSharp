@@ -58,6 +58,10 @@ namespace MeshSharp.FBX
 				{ typeof(int),  new WriterInfo('I', (sw, obj) => sw.Write((int)obj)) },
 				{ typeof(short),  new WriterInfo('Y', (sw, obj) => sw.Write((short)obj)) },
 				{ typeof(long),   new WriterInfo('L', (sw, obj) => sw.Write((long)obj)) },
+
+#warning HACK: ulong not supported. Assume smaller than long.MaxValue
+				{ typeof(ulong),   new WriterInfo('L', (sw, obj) => sw.Write((long)(ulong)obj)) },
+
 				{ typeof(float),  new WriterInfo('F', (sw, obj) => sw.Write((float)obj)) },
 				{ typeof(double), new WriterInfo('D', (sw, obj) => sw.Write((double)obj)) },
 				{ typeof(char),   new WriterInfo('C', (sw, obj) => sw.Write((byte)(char)obj)) },
@@ -105,14 +109,14 @@ namespace MeshSharp.FBX
 		{
 			stream.Write(array.Length);
 
-			var size = array.Length * Marshal.SizeOf(elementType);
+			int size = array.Length * Marshal.SizeOf(elementType);
 			bool compress = size >= CompressionThreshold;
 			stream.Write(compress ? 1 : 0);
 
-			var sw = stream;
+			BinaryWriter sw = stream;
 			DeflateWithChecksum codec = null;
 
-			var compressLengthPos = stream.BaseStream.Position;
+			long compressLengthPos = stream.BaseStream.Position;
 			stream.Write(size); // Placeholder compressed length
 			var dataStart = stream.BaseStream.Position;
 			if (compress)
@@ -181,13 +185,13 @@ namespace MeshSharp.FBX
 			else
 			{
 				nodePath.Push(node.Name ?? "");
-				var name = string.IsNullOrEmpty(node.Name) ? null : Encoding.ASCII.GetBytes(node.Name);
+				byte[] name = string.IsNullOrEmpty(node.Name) ? null : Encoding.ASCII.GetBytes(node.Name);
 				if (name != null && name.Length > byte.MaxValue)
 					throw new FbxException(stream.BaseStream.Position,
 						"Node name is too long");
 
 				// Header
-				var endOffsetPos = stream.BaseStream.Position;
+				long endOffsetPos = stream.BaseStream.Position;
 				long propertyLengthPos;
 				if (document.Version >= FbxVersion.v7500)
 				{
@@ -209,12 +213,12 @@ namespace MeshSharp.FBX
 					stream.Write(name);
 
 				// Write properties and length
-				var propertyBegin = stream.BaseStream.Position;
+				long propertyBegin = stream.BaseStream.Position;
 				for (int i = 0; i < node.Properties.Count; i++)
 				{
 					WriteProperty(node.Properties[i], i);
 				}
-				var propertyEnd = stream.BaseStream.Position;
+				long propertyEnd = stream.BaseStream.Position;
 				stream.BaseStream.Position = propertyLengthPos;
 				if (document.Version >= FbxVersion.v7500)
 					stream.Write((long)(propertyEnd - propertyBegin));
@@ -225,7 +229,7 @@ namespace MeshSharp.FBX
 				// Write child nodes
 				if (node.Nodes.Count > 0)
 				{
-					foreach (var n in node.Nodes)
+					foreach (FbxNode n in node.Nodes)
 					{
 						if (n == null)
 							continue;
@@ -235,7 +239,7 @@ namespace MeshSharp.FBX
 				}
 
 				// Write end offset
-				var dataEnd = stream.BaseStream.Position;
+				long dataEnd = stream.BaseStream.Position;
 				stream.BaseStream.Position = endOffsetPos;
 				if (document.Version >= FbxVersion.v7500)
 					stream.Write((long)dataEnd);
@@ -258,7 +262,7 @@ namespace MeshSharp.FBX
 			stream.Write((int)document.Version);
 			// TODO: Do we write a top level node or not? Maybe check the version?
 			nodePath.Clear();
-			foreach (var node in document.Nodes)
+			foreach (FbxNode node in document.Nodes)
 				WriteNode(document, node);
 			WriteNode(document, null);
 			stream.Write(GenerateFooterCode(document));
