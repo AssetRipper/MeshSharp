@@ -2,7 +2,7 @@
 using Xunit;
 using Xunit.Abstractions;
 
-namespace MeshIO.Tests
+namespace MeshSharp.Tests
 {
 	public abstract class VectorTests<T>
 		where T : IVector<T>, new()

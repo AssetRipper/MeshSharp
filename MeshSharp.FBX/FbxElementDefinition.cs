@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MeshIO.FBX
+namespace MeshSharp.FBX
 {
 	public class FbxPropertyTemplate
 	{

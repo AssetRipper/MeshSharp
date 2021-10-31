@@ -1,5 +1,5 @@
-﻿using MeshIO.Elements;
-using MeshIO.FBX.Converters;
+﻿using MeshSharp.Elements;
+using MeshSharp.FBX.Converters;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MeshIO.FBX
+namespace MeshSharp.FBX
 {
 	public class FbxReader : IFbxReader
 	{

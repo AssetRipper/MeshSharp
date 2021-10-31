@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace MeshIO
+namespace MeshSharp
 {
 	internal static class Utils
 		{

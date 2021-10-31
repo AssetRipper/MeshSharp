@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace MeshIO.FBX
+namespace MeshSharp.FBX
 {
 	/// <summary>
 	/// Represents a node in an FBX file

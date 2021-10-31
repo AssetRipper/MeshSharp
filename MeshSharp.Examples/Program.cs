@@ -1,9 +1,9 @@
-﻿using MeshIO.Elements;
-using MeshIO.FBX;
+﻿using MeshSharp.Elements;
+using MeshSharp.FBX;
 using System;
 using System.IO;
 
-namespace MeshIO.Examples
+namespace MeshSharp.Examples
 {
 	class Program
 	{

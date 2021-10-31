@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MeshIO.FBX.Exceptions
+namespace MeshSharp.FBX.Exceptions
 {
 
 	[Serializable]

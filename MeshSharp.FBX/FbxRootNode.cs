@@ -1,4 +1,4 @@
-﻿namespace MeshIO.FBX
+﻿namespace MeshSharp.FBX
 {
 	/// <summary>
 	/// A top-level FBX node

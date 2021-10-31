@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace MeshIO.FBX
+namespace MeshSharp.FBX
 {
 	[Flags]
 	public enum PropertyFlags : byte

@@ -1,4 +1,4 @@
-﻿namespace MeshIO.FBX
+﻿namespace MeshSharp.FBX
 {
 	/// <summary>
 	/// Indicates when a reader should throw errors

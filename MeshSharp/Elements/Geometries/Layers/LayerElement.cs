@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MeshIO.Elements.Geometries.Layers
+namespace MeshSharp.Elements.Geometries.Layers
 {
 	public abstract class LayerElement
 	{

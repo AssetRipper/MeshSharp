@@ -1,4 +1,4 @@
-﻿using MeshIO.Elements;
+﻿using MeshSharp.Elements;
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MeshIO
+namespace MeshSharp
 {
 	public class PropertyCollection : IEnumerable<Property>
 	{

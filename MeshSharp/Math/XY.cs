@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MeshIO
+namespace MeshSharp
 {
 	public struct XY : IVector<XY>
 	{

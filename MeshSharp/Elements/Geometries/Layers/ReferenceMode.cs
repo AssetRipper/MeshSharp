@@ -1,4 +1,4 @@
-﻿namespace MeshIO.Elements.Geometries.Layers
+﻿namespace MeshSharp.Elements.Geometries.Layers
 {
 	public enum ReferenceMode
 	{

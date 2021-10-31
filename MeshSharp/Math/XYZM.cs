@@ -1,4 +1,4 @@
-﻿namespace MeshIO
+﻿namespace MeshSharp
 {
 	public struct XYZM : IVector<XYZM>
 	{

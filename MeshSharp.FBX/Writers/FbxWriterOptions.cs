@@ -5,7 +5,7 @@ using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MeshIO.FBX.Writers
+namespace MeshSharp.FBX.Writers
 {
 	public class FbxWriterOptions
 	{

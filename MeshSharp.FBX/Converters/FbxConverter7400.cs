@@ -1,6 +1,6 @@
-﻿using MeshIO.Elements;
+﻿using MeshSharp.Elements;
 
-namespace MeshIO.FBX.Converters
+namespace MeshSharp.FBX.Converters
 {
 	public class FbxConverter7400 : FbxConverterBase
 	{

@@ -1,7 +1,7 @@
-﻿using MeshIO.Elements;
+﻿using MeshSharp.Elements;
 using System;
 
-namespace MeshIO
+namespace MeshSharp
 {
 	public class Property
 	{

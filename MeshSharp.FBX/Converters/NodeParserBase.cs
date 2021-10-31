@@ -1,7 +1,7 @@
-﻿using MeshIO.Elements;
-using MeshIO.Elements.Geometries;
-using MeshIO.Elements.Geometries.Layers;
-using MeshIO.FBX.Exceptions;
+﻿using MeshSharp.Elements;
+using MeshSharp.Elements.Geometries;
+using MeshSharp.Elements.Geometries.Layers;
+using MeshSharp.FBX.Exceptions;
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -9,7 +9,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MeshIO.FBX.Converters
+namespace MeshSharp.FBX.Converters
 {
 	/// <summary>
 	/// Base class to convert a node structure fbx <see cref="FbxRootNode"/> into a <see cref="Scene"/>

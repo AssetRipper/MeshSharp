@@ -1,13 +1,13 @@
-﻿using MeshIO.Elements;
-using MeshIO.Elements.Geometries;
-using MeshIO.Elements.Geometries.Layers;
+﻿using MeshSharp.Elements;
+using MeshSharp.Elements.Geometries;
+using MeshSharp.Elements.Geometries.Layers;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MeshIO.FBX.Converters
+namespace MeshSharp.FBX.Converters
 {
 	public abstract class FbxConverterBase : IFbxConverter
 	{

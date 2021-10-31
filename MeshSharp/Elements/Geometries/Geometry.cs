@@ -1,11 +1,11 @@
-﻿using MeshIO.Elements.Geometries.Layers;
+﻿using MeshSharp.Elements.Geometries.Layers;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MeshIO.Elements.Geometries
+namespace MeshSharp.Elements.Geometries
 {
 	public class Geometry : Element
 	{

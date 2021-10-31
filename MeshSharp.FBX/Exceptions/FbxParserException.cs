@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace MeshIO.FBX.Exceptions
+namespace MeshSharp.FBX.Exceptions
 {
 	/// <summary>
 	/// An error with the FBX data input

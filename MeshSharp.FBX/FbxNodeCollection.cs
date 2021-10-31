@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 
-namespace MeshIO.FBX
+namespace MeshSharp.FBX
 {
 	/// <summary>
 	/// Base class for nodes and documents

@@ -1,4 +1,4 @@
-﻿namespace MeshIO.FBX
+﻿namespace MeshSharp.FBX
 {
 	internal interface IFbxParser
 	{

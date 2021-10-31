@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace MeshIO
+namespace MeshSharp
 {
 	public static class VectorExtensions
 	{

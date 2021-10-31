@@ -1,9 +1,9 @@
-﻿using MeshIO.Elements;
-using MeshIO.FBX.Converters;
+﻿using MeshSharp.Elements;
+using MeshSharp.FBX.Converters;
 using System;
 using System.IO;
 
-namespace MeshIO.FBX
+namespace MeshSharp.FBX
 {
 	public class FbxWriter : IFbxWriter
 	{

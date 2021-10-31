@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MeshIO.Elements.Geometries
+namespace MeshSharp.Elements.Geometries
 {
 	public class Mesh : Geometry
 	{

@@ -4,7 +4,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Xunit.Abstractions;
 
-namespace MeshIO.Tests
+namespace MeshSharp.Tests
 {
 	public class XYZTests : VectorTests<XYZ>
 	{

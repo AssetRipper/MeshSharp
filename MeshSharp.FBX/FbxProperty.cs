@@ -1,11 +1,11 @@
-﻿using MeshIO.Elements;
+﻿using MeshSharp.Elements;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MeshIO.FBX
+namespace MeshSharp.FBX
 {
 	//P : ["PropName", "PropType", "Label(?)", "Flags", __values__, …]
 	public class FbxProperty : Property

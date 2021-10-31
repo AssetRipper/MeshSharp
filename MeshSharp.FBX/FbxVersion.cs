@@ -1,4 +1,4 @@
-﻿namespace MeshIO.FBX
+﻿namespace MeshSharp.FBX
 {
 	/// <summary>
 	/// Enumerates the FBX file versions

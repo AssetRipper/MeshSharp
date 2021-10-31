@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Xunit;
 
-namespace MeshIO.Tests
+namespace MeshSharp.Tests
 {
 	public class Matrix4Tests
 	{

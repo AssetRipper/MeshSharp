@@ -2,9 +2,9 @@
 using System.Text;
 using System.IO;
 using System.IO.Compression;
-using MeshIO.FBX.Exceptions;
+using MeshSharp.FBX.Exceptions;
 
-namespace MeshIO.FBX
+namespace MeshSharp.FBX
 {
 	/// <summary>
 	/// Reads FBX nodes from a binary stream

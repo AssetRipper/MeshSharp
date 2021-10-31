@@ -1,10 +1,10 @@
-﻿using MeshIO.FBX.Exceptions;
+﻿using MeshSharp.FBX.Exceptions;
 using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Text;
 
-namespace MeshIO.FBX
+namespace MeshSharp.FBX
 {
 	/// <summary>
 	/// Base class for binary stream wrappers

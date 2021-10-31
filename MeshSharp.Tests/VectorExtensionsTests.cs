@@ -1,12 +1,12 @@
 ﻿using Xunit;
-using MeshIO;
+using MeshSharp;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MeshIO.Tests
+namespace MeshSharp.Tests
 {
 	public class VectorExtensionsTests
 	{
