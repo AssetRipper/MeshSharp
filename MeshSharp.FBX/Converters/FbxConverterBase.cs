@@ -4,12 +4,10 @@ using MeshSharp.Elements.Geometries.Layers;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace MeshSharp.FBX.Converters
 {
-	public abstract class FbxConverterBase : IFbxConverter
+    public abstract class FbxConverterBase : IFbxConverter
 	{
 		public static IFbxConverter GetConverter(Scene scene, FbxVersion version)
 		{

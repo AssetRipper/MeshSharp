@@ -1,12 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace MeshSharp.Elements
+﻿namespace MeshSharp.Elements
 {
-	public class Element
+    public class Element
 	{
 		/// <summary>
 		/// Name of the element.

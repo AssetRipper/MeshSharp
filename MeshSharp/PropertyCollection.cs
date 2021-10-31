@@ -1,14 +1,11 @@
 ﻿using MeshSharp.Elements;
-using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace MeshSharp
 {
-	public class PropertyCollection : IEnumerable<Property>
+    public class PropertyCollection : IEnumerable<Property>
 	{
 		public Property this[int index] { get { return _properties.Values.ElementAt(index); } }
 

@@ -1,12 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 
 namespace MeshSharp.Elements
 {
-	public class Scene : Element
+    public class Scene : Element
 	{
 		public List<Node> Nodes { get; set; } = new List<Node>();
 

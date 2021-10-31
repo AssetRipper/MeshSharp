@@ -1,15 +1,11 @@
 ﻿using MeshSharp.Elements;
 using MeshSharp.FBX.Converters;
 using System;
-using System.Collections.Generic;
 using System.IO;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace MeshSharp.FBX
 {
-	public class FbxReader : IFbxReader
+    public class FbxReader : IFbxReader
 	{
 		private Stream _stream;
 		private ErrorLevel _errorLevel;

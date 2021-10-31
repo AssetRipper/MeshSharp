@@ -1,12 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 
 namespace MeshSharp.Elements.Geometries.Layers
 {
-	public abstract class LayerElement
+    public abstract class LayerElement
 	{
 		public string Name { get; set; } = string.Empty;
 		public MappingMode MappingInformationType { get; set; }

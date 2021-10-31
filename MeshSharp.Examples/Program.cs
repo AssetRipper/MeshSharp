@@ -1,11 +1,10 @@
 ﻿using MeshSharp.Elements;
 using MeshSharp.FBX;
 using System;
-using System.IO;
 
 namespace MeshSharp.Examples
 {
-	class Program
+    class Program
 	{
 		static void Main(string[] args)
 		{

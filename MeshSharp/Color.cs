@@ -1,12 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace MeshSharp
+﻿namespace MeshSharp
 {
-	public struct Color
+    public struct Color
 	{
 		public byte R { get; set; }
 		public byte G { get; set; }

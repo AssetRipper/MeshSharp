@@ -1,12 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace MeshSharp.Elements
 {
-	public class Node : Element
+    public class Node : Element
 	{
 		public bool? MultiLayer { get; set; }
 		public bool? MultiTake { get; set; }

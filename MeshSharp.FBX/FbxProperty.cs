@@ -1,14 +1,9 @@
 ﻿using MeshSharp.Elements;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace MeshSharp.FBX
 {
-	//P : ["PropName", "PropType", "Label(?)", "Flags", __values__, …]
-	public class FbxProperty : Property
+    //P : ["PropName", "PropType", "Label(?)", "Flags", __values__, …]
+    public class FbxProperty : Property
 	{
 		public string FbxTypeName { get; set; }
 

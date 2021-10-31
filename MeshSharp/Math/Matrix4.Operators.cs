@@ -1,9 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
 
 namespace MeshSharp
 {
-	public partial struct Matrix4
+    public partial struct Matrix4
 	{
 		#region Move to transform
 		/// <summary>

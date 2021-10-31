@@ -6,15 +6,13 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace MeshSharp.FBX.Converters
 {
-	/// <summary>
-	/// Base class to convert a node structure fbx <see cref="FbxRootNode"/> into a <see cref="Scene"/>
-	/// </summary>
-	public abstract class NodeParserBase : INodeParser
+    /// <summary>
+    /// Base class to convert a node structure fbx <see cref="FbxRootNode"/> into a <see cref="Scene"/>
+    /// </summary>
+    public abstract class NodeParserBase : INodeParser
 	{
 		public static INodeParser GetConverter(FbxRootNode root)
 		{
