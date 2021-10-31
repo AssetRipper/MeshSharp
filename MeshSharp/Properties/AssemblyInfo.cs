@@ -18,3 +18,8 @@ using System.Runtime.InteropServices;
 [assembly: Guid("9d28a275-f5b7-4403-8af4-b10241584094")]
 
 [assembly: InternalsVisibleTo("MeshSharp.FBX")]
+[assembly: InternalsVisibleTo("MeshSharp.GLTF")]
+[assembly: InternalsVisibleTo("MeshSharp.OBJ")]
+[assembly: InternalsVisibleTo("MeshSharp.PLY")]
+[assembly: InternalsVisibleTo("MeshSharp.PMX")]
+[assembly: InternalsVisibleTo("MeshSharp.STL")]
