@@ -602,17 +602,17 @@ namespace MeshSharp.FBX.Converters
 				node.Nodes.Add(new FbxNode("FBXVersion", (int)Version));
 				node.Nodes.Add(new FbxNode("FBXHeaderVersion", HeaderVersion));
 
-				FbxNode tiemespan = new FbxNode("CreationTimeStamp");
-				tiemespan.Nodes.Add(new FbxNode("Version", 1000));
-				tiemespan.Nodes.Add(new FbxNode("Year", CreationTime.Year));
-				tiemespan.Nodes.Add(new FbxNode("Month", CreationTime.Month));
-				tiemespan.Nodes.Add(new FbxNode("Day", CreationTime.Day));
-				tiemespan.Nodes.Add(new FbxNode("Hour", CreationTime.Hour));
-				tiemespan.Nodes.Add(new FbxNode("Minute", CreationTime.Minute));
-				tiemespan.Nodes.Add(new FbxNode("Second", CreationTime.Second));
-				tiemespan.Nodes.Add(new FbxNode("Millisecond", CreationTime.Millisecond));
+				FbxNode timespan = new FbxNode("CreationTimeStamp");
+				timespan.Nodes.Add(new FbxNode("Version", 1000));
+				timespan.Nodes.Add(new FbxNode("Year", CreationTime.Year));
+				timespan.Nodes.Add(new FbxNode("Month", CreationTime.Month));
+				timespan.Nodes.Add(new FbxNode("Day", CreationTime.Day));
+				timespan.Nodes.Add(new FbxNode("Hour", CreationTime.Hour));
+				timespan.Nodes.Add(new FbxNode("Minute", CreationTime.Minute));
+				timespan.Nodes.Add(new FbxNode("Second", CreationTime.Second));
+				timespan.Nodes.Add(new FbxNode("Millisecond", CreationTime.Millisecond));
 
-				node.Nodes.Add(tiemespan);
+				node.Nodes.Add(timespan);
 
 				return node;
 			}

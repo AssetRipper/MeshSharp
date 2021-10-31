@@ -31,7 +31,7 @@ namespace MeshSharp.FBX
 		/// <returns>The child node, or null</returns>
 		public FbxNode GetRelative(string path)
 		{
-			var tokens = path.Split('/');
+			string[] tokens = path.Split('/');
 			FbxNodeCollection n = this;
 			foreach (var t in tokens)
 			{
