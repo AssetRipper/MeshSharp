@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31815.197
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MeshSharp", "MeshIO\MeshSharp.csproj", "{3F391F00-A310-4681-BE94-15329D662A3D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MeshSharp", "MeshSharp\MeshSharp.csproj", "{3F391F00-A310-4681-BE94-15329D662A3D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{DA7FF092-3DA1-4942-9FF6-B42F1CDBD0C6}"
 	ProjectSection(SolutionItems) = preProject
@@ -13,9 +13,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		README.md = README.md
 	EndProjectSection
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MeshSharp.FBX", "MeshIO.FBX\MeshSharp.FBX.csproj", "{FE3E6007-BC34-4E40-9C65-5FA5274AA3AA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MeshSharp.FBX", "MeshSharp.FBX\MeshSharp.FBX.csproj", "{FE3E6007-BC34-4E40-9C65-5FA5274AA3AA}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MeshSharp.Examples", "MeshIO.Examples\MeshSharp.Examples.csproj", "{55281519-37E7-42BC-B467-9D3CED013C23}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MeshSharp.Examples", "MeshSharp.Examples\MeshSharp.Examples.csproj", "{55281519-37E7-42BC-B467-9D3CED013C23}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "file_samples", "file_samples", "{9C0B5243-FD21-4933-9269-5B3A958D2B83}"
 EndProject
@@ -44,9 +44,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "gltf", "gltf", "{0A337B82-E
 		file_samples\gltf\tent.glb = file_samples\gltf\tent.glb
 	EndProjectSection
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MeshSharp.Tests", "MeshIO.Tests\MeshSharp.Tests.csproj", "{0DC52F2F-8232-430F-B0C9-B207F64254D7}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MeshSharp.OBJ", "MeshIO.OBJ\MeshSharp.OBJ.csproj", "{23E1077D-5EED-43D7-ABAB-F3DB7BA21E37}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MeshSharp.Tests", "MeshSharp.Tests\MeshSharp.Tests.csproj", "{0DC52F2F-8232-430F-B0C9-B207F64254D7}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "obj", "obj", "{590110F8-095C-49C7-80B2-C1D63588F4D6}"
 	ProjectSection(SolutionItems) = preProject
@@ -59,6 +57,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "workflows", "workflows", "{
 	ProjectSection(SolutionItems) = preProject
 		.github\workflows\build_n_test.yml = .github\workflows\build_n_test.yml
 	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MeshSharp.OBJ", "MeshSharp.OBJ\MeshSharp.OBJ.csproj", "{64101EC3-7763-43B8-ACFC-2C61CA3920FB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -82,10 +82,10 @@ Global
 		{0DC52F2F-8232-430F-B0C9-B207F64254D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0DC52F2F-8232-430F-B0C9-B207F64254D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0DC52F2F-8232-430F-B0C9-B207F64254D7}.Release|Any CPU.Build.0 = Release|Any CPU
-		{23E1077D-5EED-43D7-ABAB-F3DB7BA21E37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{23E1077D-5EED-43D7-ABAB-F3DB7BA21E37}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{23E1077D-5EED-43D7-ABAB-F3DB7BA21E37}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{23E1077D-5EED-43D7-ABAB-F3DB7BA21E37}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64101EC3-7763-43B8-ACFC-2C61CA3920FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64101EC3-7763-43B8-ACFC-2C61CA3920FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64101EC3-7763-43B8-ACFC-2C61CA3920FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64101EC3-7763-43B8-ACFC-2C61CA3920FB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

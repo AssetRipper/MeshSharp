@@ -16,7 +16,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\MeshIO\MeshSharp.csproj" />
+    <ProjectReference Include="..\MeshSharp\MeshSharp.csproj" />
   </ItemGroup>
 
 </Project>
