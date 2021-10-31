@@ -10,7 +10,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\MeshIO.FBX\MeshIO.FBX.csproj" />
+    <ProjectReference Include="..\MeshIO.FBX\MeshSharp.FBX.csproj" />
   </ItemGroup>
 
 </Project>
