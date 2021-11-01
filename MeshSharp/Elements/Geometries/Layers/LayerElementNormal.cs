@@ -4,7 +4,7 @@ namespace MeshSharp.Elements.Geometries.Layers
 {
     public class LayerElementNormal : LayerElement
 	{
-		public List<XYZ> Normals { get; set; } = new List<XYZ>();
+		public List<XYZ> Normals { get; } = new List<XYZ>();
 		public LayerElementNormal(Geometry owner) : base(owner) { }
 
 		public void CalculateFlatNormals()

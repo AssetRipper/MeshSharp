@@ -5,7 +5,7 @@ namespace MeshSharp.Elements.Geometries
 {
     public class Geometry : Element
 	{
-		public List<LayerElement> Layers { get; set; } = new List<LayerElement>();
+		public List<LayerElement> Layers { get; } = new List<LayerElement>();
 
 		public Geometry() : base() { }
 

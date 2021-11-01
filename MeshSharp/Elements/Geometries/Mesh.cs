@@ -4,8 +4,8 @@ namespace MeshSharp.Elements.Geometries
 {
     public class Mesh : Geometry
 	{
-		public List<XYZ> Vertices { get; set; } = new List<XYZ>();
-		public List<Polygon> Polygons { get; set; } = new List<Polygon>();
+		public List<XYZ> Vertices { get; } = new List<XYZ>();
+		public List<Polygon> Polygons { get; } = new List<Polygon>();
 
 		public Mesh() : base() { }
 
