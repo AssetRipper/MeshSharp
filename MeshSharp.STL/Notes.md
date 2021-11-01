@@ -33,6 +33,8 @@ Floating-point numbers are represented as IEEE floating-point numbers (the same 
 
 # References
 
-* https://en.wikipedia.org/wiki/STL_(file_format)
-* http://paulbourke.net/dataformats/stl/
-* http://www.fabbers.com/tech/STL_Format
+* [Wikipedia Entry](https://en.wikipedia.org/wiki/STL_(file_format))
+* [Analysis by Paul Bourke](http://paulbourke.net/dataformats/stl/)
+* [Analysis by Fabbers](http://www.fabbers.com/tech/STL_Format)
+* [Some example Ascii STL files](https://people.math.sc.edu/Burkardt/data/stla/stla.html)
+* [Some example Binary STL files](https://people.math.sc.edu/Burkardt/data/stlb/stlb.html)
