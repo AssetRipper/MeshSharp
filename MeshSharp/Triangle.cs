@@ -28,5 +28,10 @@
 		{
 			return new int[] { (int)Index0, (int)Index1, (int)Index2 };
 		}
-	}
+
+        public override Triangle[] ConvertToTriangles()
+        {
+			return new Triangle[] { this };
+        }
+    }
 }

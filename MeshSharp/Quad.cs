@@ -19,5 +19,13 @@
 		{
 			return new int[] { (int)Index0, (int)Index1, (int)Index2, (int)Index3 };
 		}
+
+		public override Triangle[] ConvertToTriangles()
+        {
+			Triangle[] triangles = new Triangle[2];
+			triangles[0] = new Triangle(Index0, Index1, Index2);
+			triangles[1] = new Triangle(Index0, Index2, Index3);
+			return triangles;
+        }
 	}
 }
