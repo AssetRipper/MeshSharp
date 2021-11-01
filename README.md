@@ -27,7 +27,8 @@ Not yet implemented.
 
 ## MeshSharp.STL
 
-Not yet implemented.
+- Read and Write STL binary files
+- Read and Write STL ASCII files
 
 
 ## Credits

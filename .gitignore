@@ -2,3 +2,4 @@ obj
 bin
 .vs
 *.csproj.user
+file_samples

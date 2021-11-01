@@ -11,6 +11,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\MeshSharp.FBX\MeshSharp.FBX.csproj" />
+    <ProjectReference Include="..\MeshSharp.STL\MeshSharp.STL.csproj" />
   </ItemGroup>
 
 </Project>
