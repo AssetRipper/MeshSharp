@@ -172,5 +172,13 @@
 			return !left.IsEqual(right);
 		}
 		#endregion
+
+		#region Conversion Operators
+		public static implicit operator XYZM(System.Numerics.Vector4 vector) => new XYZM(vector.X, vector.Y, vector.Z, vector.W);
+		public static explicit operator System.Numerics.Vector4(XYZM vector)
+		{
+			return new System.Numerics.Vector4((float)vector.X, (float)vector.Y, (float)vector.Z, (float)vector.M);
+		}
+		#endregion
 	}
 }

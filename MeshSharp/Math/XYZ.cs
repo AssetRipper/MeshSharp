@@ -203,6 +203,14 @@
 					left.Y != right.Y ||
 					left.Z != right.Z);
 		}
-		#endregion
-	}
+        #endregion
+
+        #region Conversion Operators
+		public static implicit operator XYZ(System.Numerics.Vector3 vector) => new XYZ(vector.X, vector.Y,vector.Z);
+		public static explicit operator System.Numerics.Vector3(XYZ vector)
+        {
+			return new System.Numerics.Vector3((float)vector.X, (float)vector.Y, (float)vector.Z);
+        }
+        #endregion
+    }
 }

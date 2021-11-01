@@ -31,5 +31,13 @@
 		{
 			return $"{X},{Y}";
 		}
+
+		#region Conversion Operators
+		public static implicit operator XY(System.Numerics.Vector2 vector) => new XY(vector.X, vector.Y);
+		public static explicit operator System.Numerics.Vector2(XY vector)
+		{
+			return new System.Numerics.Vector2((float)vector.X, (float)vector.Y);
+		}
+		#endregion
 	}
 }
