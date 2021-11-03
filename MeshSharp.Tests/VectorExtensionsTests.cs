@@ -1,9 +1,9 @@
-﻿using Xunit;
-using System;
+﻿using System;
+using Xunit;
 
 namespace MeshSharp.Tests
 {
-    public class VectorExtensionsTests
+	public class VectorExtensionsTests
 	{
 		[Fact()]
 		public void GetLengthTest()

@@ -2,8 +2,8 @@
 
 namespace MeshSharp.IO
 {
-    internal interface IBinaryWriteable
-    {
-        void Write(BinaryWriter writer);
-    }
+	internal interface IBinaryWriteable
+	{
+		void Write(BinaryWriter writer);
+	}
 }

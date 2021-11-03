@@ -1,6 +1,6 @@
 ﻿namespace MeshSharp.FBX.Converters
 {
-    public interface IFbxConverter
+	public interface IFbxConverter
 	{
 		FbxVersion Version { get; }
 

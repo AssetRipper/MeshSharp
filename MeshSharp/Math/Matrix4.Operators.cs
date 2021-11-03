@@ -2,7 +2,7 @@
 
 namespace MeshSharp
 {
-    public partial struct Matrix4
+	public partial struct Matrix4
 	{
 		#region Move to transform
 		/// <summary>
@@ -223,7 +223,7 @@ namespace MeshSharp
 				0.0, y, 0.0, 0.0,
 				0.0, 0.0, z, 0.0,
 				0.0, 0.0, 0.0, 1.0);
-		} 
+		}
 		#endregion
 
 		/// <summary>

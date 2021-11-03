@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace MeshSharp.Elements.Geometries
 {
-    public class Geometry : Element
+	public class Geometry : Element
 	{
 		public List<LayerElement> Layers { get; } = new List<LayerElement>();
 

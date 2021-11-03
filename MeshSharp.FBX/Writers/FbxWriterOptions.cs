@@ -3,7 +3,7 @@ using System.Runtime.CompilerServices;
 
 namespace MeshSharp.FBX.Writers
 {
-    public class FbxWriterOptions
+	public class FbxWriterOptions
 	{
 		public GlobalSettings GlobalSettings { get; set; }
 
@@ -87,7 +87,7 @@ namespace MeshSharp.FBX.Writers
 		{
 			FbxNode node = new FbxNode("GlobalSettings");
 
-			node.Nodes.Add(new FbxNode("Version", (int)Version));
+			node.Nodes.Add(new FbxNode("Version", Version));
 
 			FbxNode properties = new FbxNode("Properties70");
 

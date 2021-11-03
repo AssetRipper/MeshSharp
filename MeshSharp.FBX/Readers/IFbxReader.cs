@@ -3,7 +3,7 @@ using System;
 
 namespace MeshSharp.FBX
 {
-    public interface IFbxReader : IDisposable
+	public interface IFbxReader : IDisposable
 	{
 		FbxRootNode Parse();
 		Scene Read();

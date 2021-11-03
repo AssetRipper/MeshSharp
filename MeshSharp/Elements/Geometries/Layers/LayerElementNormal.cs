@@ -2,7 +2,7 @@
 
 namespace MeshSharp.Elements.Geometries.Layers
 {
-    public class LayerElementNormal : LayerElement
+	public class LayerElementNormal : LayerElement
 	{
 		public List<XYZ> Normals { get; internal set; } = new List<XYZ>();
 		public LayerElementNormal(Geometry owner) : base(owner) { }
@@ -21,7 +21,7 @@ namespace MeshSharp.Elements.Geometries.Layers
 			{
 				XYZ normal = XYZ.Zero;
 				foreach (Triangle triangle in item.ConvertToTriangles())
-                {
+				{
 					XYZ subnormal = XYZ.FindNormal(
 						mesh.Vertices[(int)triangle.Index0],
 						mesh.Vertices[(int)triangle.Index1],

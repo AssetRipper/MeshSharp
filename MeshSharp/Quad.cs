@@ -1,9 +1,9 @@
 ﻿namespace MeshSharp
 {
-    public class Quad : Polygon
+	public class Quad : Polygon
 	{
-		public uint Index0 
-		{ 
+		public uint Index0
+		{
 			get => Indices[0];
 			set => Indices[0] = value;
 		}

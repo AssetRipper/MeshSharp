@@ -3,7 +3,7 @@ using System.Linq;
 
 namespace MeshSharp.Elements
 {
-    public class Node : Element
+	public class Node : Element
 	{
 		public bool? MultiLayer { get; set; }
 		public bool? MultiTake { get; set; }

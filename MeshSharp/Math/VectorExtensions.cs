@@ -2,7 +2,7 @@
 
 namespace MeshSharp
 {
-    public static class VectorExtensions
+	public static class VectorExtensions
 	{
 		/// <summary>
 		/// Returns the length of the vector.

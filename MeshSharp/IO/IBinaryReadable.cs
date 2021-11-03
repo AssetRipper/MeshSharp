@@ -2,8 +2,8 @@
 
 namespace MeshSharp.IO
 {
-    internal interface IBinaryReadable
-    {
-        void Read(BinaryReader reader);
-    }
+	internal interface IBinaryReadable
+	{
+		void Read(BinaryReader reader);
+	}
 }

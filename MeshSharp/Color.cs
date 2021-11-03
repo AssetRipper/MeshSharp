@@ -1,6 +1,6 @@
 ﻿namespace MeshSharp
 {
-    public struct Color
+	public struct Color
 	{
 		public byte R { get; set; }
 		public byte G { get; set; }

@@ -3,7 +3,7 @@
 namespace MeshSharp.FBX.Exceptions
 {
 
-    [Serializable]
+	[Serializable]
 	public class FbxConverterException : Exception
 	{
 		public FbxConverterException() { }

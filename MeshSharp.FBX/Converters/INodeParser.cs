@@ -2,7 +2,7 @@
 
 namespace MeshSharp.FBX.Converters
 {
-    public interface INodeParser
+	public interface INodeParser
 	{
 		FbxVersion Version { get; }
 

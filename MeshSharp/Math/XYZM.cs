@@ -2,11 +2,11 @@
 {
 	public struct XYZM : IVector<XYZM>
 	{
-		public readonly static XYZM Zero = new XYZM(0, 0, 0, 0);
-		public readonly static XYZM AxisX = new XYZM(1, 0, 0, 0);
-		public readonly static XYZM AxisY = new XYZM(0, 1, 0, 0);
-		public readonly static XYZM AxisZ = new XYZM(0, 0, 1, 0);
-		public readonly static XYZM AxisM = new XYZM(0, 0, 0, 1);
+		public static readonly XYZM Zero = new XYZM(0, 0, 0, 0);
+		public static readonly XYZM AxisX = new XYZM(1, 0, 0, 0);
+		public static readonly XYZM AxisY = new XYZM(0, 1, 0, 0);
+		public static readonly XYZM AxisZ = new XYZM(0, 0, 1, 0);
+		public static readonly XYZM AxisM = new XYZM(0, 0, 0, 1);
 
 		public double X { get; set; }
 		public double Y { get; set; }

@@ -1,8 +1,6 @@
-﻿using System;
-
-namespace MeshSharp.GLTF
+﻿namespace MeshSharp.GLTF
 {
-    public class Class1
-    {
-    }
+	public class Class1
+	{
+	}
 }

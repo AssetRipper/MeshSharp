@@ -1,8 +1,6 @@
-﻿using System;
-
-namespace MeshSharp.PMX
+﻿namespace MeshSharp.PMX
 {
-    public class Class1
-    {
-    }
+	public class Class1
+	{
+	}
 }

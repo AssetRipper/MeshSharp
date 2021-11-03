@@ -1,8 +1,8 @@
-﻿using System;
-using System.Text;
+﻿using MeshSharp.FBX.Exceptions;
+using System;
 using System.IO;
+using System.Text;
 using System.Text.RegularExpressions;
-using MeshSharp.FBX.Exceptions;
 
 namespace MeshSharp.FBX
 {

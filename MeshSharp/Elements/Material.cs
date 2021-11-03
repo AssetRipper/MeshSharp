@@ -1,6 +1,6 @@
 ﻿namespace MeshSharp.Elements
 {
-    public class Material : Element
+	public class Material : Element
 	{
 		public string ShadingModel { get; set; } = "unknown";
 

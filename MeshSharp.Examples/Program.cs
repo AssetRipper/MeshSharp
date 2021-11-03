@@ -6,20 +6,20 @@ using System;
 
 namespace MeshSharp.Examples
 {
-    class Program
+	class Program
 	{
 		static void Main(string[] args)
 		{
-            try
-            {
+			try
+			{
 				//StlConversion();
 				//StlExample();
 				ObjExample();
 			}
-			catch(Exception ex)
-            {
+			catch (Exception ex)
+			{
 				Console.WriteLine(ex.ToString());
-            }
+			}
 
 			Console.WriteLine("Program finished");
 			Console.ReadLine();
@@ -37,7 +37,7 @@ namespace MeshSharp.Examples
 		}
 
 		static void StlConversion()
-        {
+		{
 			string pathI = @".\..\..\..\..\file_samples\stl\dev_binoculars_hudShape_1_binary.stl";
 			string pathO = @".\..\..\..\..\file_samples\stl\dev_binoculars_hudShape_1_out.fbx";
 			Scene scene = StlReader.ReadBinary(pathI);

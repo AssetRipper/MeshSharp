@@ -5,7 +5,7 @@ using System.IO;
 
 namespace MeshSharp.FBX
 {
-    public class FbxReader : IFbxReader
+	public class FbxReader : IFbxReader
 	{
 		private Stream _stream;
 		private ErrorLevel _errorLevel;

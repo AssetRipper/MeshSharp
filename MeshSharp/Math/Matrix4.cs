@@ -202,7 +202,7 @@ namespace MeshSharp
 				   d * (e * jo_kn - f * io_km + g * in_jm);
 		}
 
-				/// <summary>
+		/// <summary>
 		/// Attempts to calculate the inverse of the given matrix. If successful, result will contain the inverted matrix.
 		/// </summary>
 		/// <param name="matrix">The source matrix to invert.</param>

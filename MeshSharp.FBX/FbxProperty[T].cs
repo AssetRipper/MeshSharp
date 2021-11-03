@@ -2,8 +2,8 @@
 
 namespace MeshSharp.FBX
 {
-    //P : ["PropName", "PropType", "Label(?)", "Flags", __values__, …]
-    public class FbxProperty<T> : FbxProperty
+	//P : ["PropName", "PropType", "Label(?)", "Flags", __values__, …]
+	public class FbxProperty<T> : FbxProperty
 	{
 		public new T Value { get; set; }
 

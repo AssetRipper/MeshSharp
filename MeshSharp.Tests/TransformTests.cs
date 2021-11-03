@@ -2,7 +2,7 @@
 
 namespace MeshSharp.Tests
 {
-    public class TransformTests
+	public class TransformTests
 	{
 		[Fact()]
 		public void DecomposeTest()

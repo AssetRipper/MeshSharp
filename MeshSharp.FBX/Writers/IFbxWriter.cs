@@ -1,6 +1,6 @@
 ﻿namespace MeshSharp.FBX
 {
-    public interface IFbxWriter
+	public interface IFbxWriter
 	{
 		FbxRootNode GetRootNode();
 		void WriteBinary();

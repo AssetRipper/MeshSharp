@@ -1,6 +1,6 @@
 ﻿namespace MeshSharp
 {
-    public class Triangle : Polygon
+	public class Triangle : Polygon
 	{
 		public uint Index0
 		{
@@ -30,5 +30,5 @@
 		/// <param name="i1"></param>
 		/// <param name="i2"></param>
 		public Triangle(uint i0, uint i1, uint i2) : base(new uint[] { i0, i1, i2 }) { }
-    }
+	}
 }

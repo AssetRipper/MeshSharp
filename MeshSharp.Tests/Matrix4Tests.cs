@@ -2,7 +2,7 @@
 
 namespace MeshSharp.Tests
 {
-    public class Matrix4Tests
+	public class Matrix4Tests
 	{
 		/*
 		 Matrix organization:
@@ -40,10 +40,10 @@ namespace MeshSharp.Tests
 				 6, 4, 2, 4);
 
 			Matrix4 r = new Matrix4(
-				107, 156, 44,  68,
-				121, 148, 50,  84,
-				104, 144, 42,  66,
-				83 , 106, 48,  80);
+				107, 156, 44, 68,
+				121, 148, 50, 84,
+				104, 144, 42, 66,
+				83, 106, 48, 80);
 
 			Assert.Equal(r, Matrix4.Multiply(a, b));
 			Assert.Equal(r, a * b);

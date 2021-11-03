@@ -1,10 +1,10 @@
-﻿using System;
+﻿using MeshSharp.FBX.Exceptions;
+using System;
 using System.Collections.Generic;
-using System.Text;
 using System.IO;
 using System.IO.Compression;
 using System.Runtime.InteropServices;
-using MeshSharp.FBX.Exceptions;
+using System.Text;
 
 namespace MeshSharp.FBX
 {
@@ -221,7 +221,7 @@ namespace MeshSharp.FBX
 				long propertyEnd = stream.BaseStream.Position;
 				stream.BaseStream.Position = propertyLengthPos;
 				if (document.Version >= FbxVersion.v7500)
-					stream.Write((long)(propertyEnd - propertyBegin));
+					stream.Write(propertyEnd - propertyBegin);
 				else
 					stream.Write((int)(propertyEnd - propertyBegin));
 				stream.BaseStream.Position = propertyEnd;
@@ -242,7 +242,7 @@ namespace MeshSharp.FBX
 				long dataEnd = stream.BaseStream.Position;
 				stream.BaseStream.Position = endOffsetPos;
 				if (document.Version >= FbxVersion.v7500)
-					stream.Write((long)dataEnd);
+					stream.Write(dataEnd);
 				else
 					stream.Write((int)dataEnd);
 				stream.BaseStream.Position = dataEnd;

@@ -1,8 +1,6 @@
-﻿using System;
-
-namespace MeshSharp.PLY
+﻿namespace MeshSharp.PLY
 {
-    public class Class1
-    {
-    }
+	public class Class1
+	{
+	}
 }

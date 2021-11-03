@@ -2,10 +2,10 @@
 {
 	public struct XYZ : IVector<XYZ>
 	{
-		public readonly static XYZ Zero = new XYZ(0, 0, 0);
-		public readonly static XYZ AxisX = new XYZ(1, 0, 0);
-		public readonly static XYZ AxisY = new XYZ(0, 1, 0);
-		public readonly static XYZ AxisZ = new XYZ(0, 0, 1);
+		public static readonly XYZ Zero = new XYZ(0, 0, 0);
+		public static readonly XYZ AxisX = new XYZ(1, 0, 0);
+		public static readonly XYZ AxisY = new XYZ(0, 1, 0);
+		public static readonly XYZ AxisZ = new XYZ(0, 0, 1);
 
 		public double X { get; set; }
 		public double Y { get; set; }
@@ -203,14 +203,14 @@
 					left.Y != right.Y ||
 					left.Z != right.Z);
 		}
-        #endregion
+		#endregion
 
-        #region Conversion Operators
-		public static implicit operator XYZ(System.Numerics.Vector3 vector) => new XYZ(vector.X, vector.Y,vector.Z);
+		#region Conversion Operators
+		public static implicit operator XYZ(System.Numerics.Vector3 vector) => new XYZ(vector.X, vector.Y, vector.Z);
 		public static explicit operator System.Numerics.Vector3(XYZ vector)
-        {
+		{
 			return new System.Numerics.Vector3((float)vector.X, (float)vector.Y, (float)vector.Z);
-        }
-        #endregion
-    }
+		}
+		#endregion
+	}
 }

@@ -7,7 +7,7 @@ using System.Linq;
 
 namespace MeshSharp.FBX.Converters
 {
-    public abstract class FbxConverterBase : IFbxConverter
+	public abstract class FbxConverterBase : IFbxConverter
 	{
 		public static IFbxConverter GetConverter(Scene scene, FbxVersion version)
 		{
@@ -656,7 +656,7 @@ namespace MeshSharp.FBX.Converters
 			{
 				FbxNode node = new FbxNode("GlobalSettings");
 
-				node.Nodes.Add(new FbxNode("Version", (int)Version));
+				node.Nodes.Add(new FbxNode("Version", Version));
 
 				FbxNode properties = new FbxNode("Properties70");
 

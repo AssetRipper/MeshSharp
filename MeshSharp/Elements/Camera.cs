@@ -1,6 +1,6 @@
 ﻿namespace MeshSharp.Elements
 {
-    public class Camera : Element
+	public class Camera : Element
 	{
 		#region Enums
 		/// <summary>
@@ -24,7 +24,7 @@
 		public XYZ UpVector { get; set; }
 
 		public double FieldOfView { get; set; }
-		
+
 		public double FieldOfViewX { get; set; }
 
 		public double FieldOfViewY { get; set; }

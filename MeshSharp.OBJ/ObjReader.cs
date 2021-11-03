@@ -1,6 +1,6 @@
 ﻿namespace MeshSharp.OBJ
 {
-    public class ObjReader
+	public class ObjReader
 	{
 		public ObjReader()
 		{

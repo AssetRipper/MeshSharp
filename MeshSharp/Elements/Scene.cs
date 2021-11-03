@@ -2,7 +2,7 @@
 
 namespace MeshSharp.Elements
 {
-    public class Scene : Element
+	public class Scene : Element
 	{
 		public List<Node> Nodes { get; } = new List<Node>();
 

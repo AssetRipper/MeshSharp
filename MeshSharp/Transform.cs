@@ -2,7 +2,7 @@
 
 namespace MeshSharp
 {
-    public class Transform
+	public class Transform
 	{
 		public XYZ Translation
 		{

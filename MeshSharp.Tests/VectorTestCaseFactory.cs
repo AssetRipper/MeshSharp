@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace MeshSharp.Tests
 {
-    public class VectorTestCaseFactory
+	public class VectorTestCaseFactory
 	{
 		private Random _random;
 

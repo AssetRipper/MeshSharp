@@ -1,6 +1,6 @@
 ﻿namespace MeshSharp.Elements
 {
-    public class Element
+	public class Element
 	{
 		/// <summary>
 		/// Name of the element.

@@ -43,6 +43,6 @@ namespace MeshSharp.FBX
 		/// <remarks>
 		/// Fbx value : 'H'
 		/// </remarks>
-		Hidden = 16, 
+		Hidden = 16,
 	}
 }

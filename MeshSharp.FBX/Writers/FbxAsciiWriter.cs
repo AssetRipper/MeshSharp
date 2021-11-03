@@ -1,8 +1,8 @@
-﻿using System;
-using System.Text;
-using System.IO;
+﻿using MeshSharp.FBX.Exceptions;
+using System;
 using System.Collections.Generic;
-using MeshSharp.FBX.Exceptions;
+using System.IO;
+using System.Text;
 
 namespace MeshSharp.FBX
 {
@@ -23,7 +23,7 @@ namespace MeshSharp.FBX
 		/// <summary>
 		/// If this is active the max line length will not be applied
 		/// </summary>
-		public bool ApplyLineMaxLength { get; set; } 
+		public bool ApplyLineMaxLength { get; set; }
 
 		private readonly Stack<string> _nodePath = new Stack<string>();
 		private readonly Stream _stream;

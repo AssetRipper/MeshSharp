@@ -9,10 +9,10 @@ using System.Linq;
 
 namespace MeshSharp.FBX.Converters
 {
-    /// <summary>
-    /// Base class to convert a node structure fbx <see cref="FbxRootNode"/> into a <see cref="Scene"/>
-    /// </summary>
-    public abstract class NodeParserBase : INodeParser
+	/// <summary>
+	/// Base class to convert a node structure fbx <see cref="FbxRootNode"/> into a <see cref="Scene"/>
+	/// </summary>
+	public abstract class NodeParserBase : INodeParser
 	{
 		public static INodeParser GetConverter(FbxRootNode root)
 		{
