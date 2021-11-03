@@ -2,30 +2,27 @@
 {
     public class Quad : Polygon
 	{
-		public uint Index0 { get; set; }
-		public uint Index1 { get; set; }
-		public uint Index2 { get; set; }
-		public uint Index3 { get; set; }
-
-		public Quad(uint i0, uint i1, uint i2, uint i3)
+		public uint Index0 
+		{ 
+			get => Indices[0];
+			set => Indices[0] = value;
+		}
+		public uint Index1
 		{
-			this.Index0 = i0;
-			this.Index1 = i1;
-			this.Index2 = i2;
-			this.Index3 = i3;
+			get => Indices[1];
+			set => Indices[1] = value;
+		}
+		public uint Index2
+		{
+			get => Indices[2];
+			set => Indices[2] = value;
+		}
+		public uint Index3
+		{
+			get => Indices[3];
+			set => Indices[3] = value;
 		}
 
-		public override int[] ToArray()
-		{
-			return new int[] { (int)Index0, (int)Index1, (int)Index2, (int)Index3 };
-		}
-
-		public override Triangle[] ConvertToTriangles()
-        {
-			Triangle[] triangles = new Triangle[2];
-			triangles[0] = new Triangle(Index0, Index1, Index2);
-			triangles[1] = new Triangle(Index0, Index2, Index3);
-			return triangles;
-        }
+		public Quad(uint i0, uint i1, uint i2, uint i3) : base(new uint[] { i0, i1, i2, i3 }) { }
 	}
 }

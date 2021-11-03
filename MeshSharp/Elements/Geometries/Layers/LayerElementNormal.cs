@@ -19,10 +19,15 @@ namespace MeshSharp.Elements.Geometries.Layers
 
 			foreach (Polygon item in mesh.Polygons)
 			{
-				XYZ normal = XYZ.FindNormal(
-					mesh.Vertices[item.ToArray()[0]],
-					mesh.Vertices[item.ToArray()[1]],
-					mesh.Vertices[item.ToArray()[2]]);
+				XYZ normal = XYZ.Zero;
+				foreach (Triangle triangle in item.ConvertToTriangles())
+                {
+					XYZ subnormal = XYZ.FindNormal(
+						mesh.Vertices[(int)triangle.Index0],
+						mesh.Vertices[(int)triangle.Index1],
+						mesh.Vertices[(int)triangle.Index2]);
+					normal += subnormal;
+				}
 
 				Normals.Add(normal.Normalize());
 			}
