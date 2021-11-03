@@ -22,32 +22,9 @@ namespace MeshSharp.STL.Writers
 
         public abstract void Write(Scene scene);
 
-        private static List<Mesh> GetMeshes(Scene scene)
-        {
-            List<Mesh> result = new List<Mesh>();
-            foreach (Node node in scene.Nodes)
-            {
-                result.AddRange(GetMeshes(node));
-            }
-            return result;
-        }
-
-        private static List<Mesh> GetMeshes(Node node)
-        {
-            List<Mesh> result = new List<Mesh>();
-            foreach (Element child in node.Children)
-            {
-                if (child is Mesh mesh)
-                    result.Add(mesh);
-                else if (child is Node childNode)
-                    result.AddRange(GetMeshes(childNode));
-            }
-            return result;
-        }
-
         protected static List<StlTriangle> ConvertToStlTriangles(Scene scene)
         {
-            List<Mesh> meshes = GetMeshes(scene);
+            List<Mesh> meshes = MeshUtils.GetAllMeshes(scene);
             return ConvertToStlTriangles(meshes);
         }
 
