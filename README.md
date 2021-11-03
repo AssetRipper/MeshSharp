@@ -6,8 +6,10 @@ C# 3D library.
 
 **Current features**:
 
-- Read and Write FBX binary files
-- Read and Write FBX ASCII files
+* Read and Write FBX binary files
+  * Not tested
+* Read and Write FBX ASCII files
+  * Seems to be working
 
 ## MeshSharp.GLTF
 
@@ -15,20 +17,23 @@ Not yet implemented.
 
 ## MeshSharp.OBJ
 
-Not yet implemented.
+* Reading
+  * Not yet implemented
+* Writing
+  * Currently, only vertices and faces can be written
 
 ## MeshSharp.PLY
 
-Not yet implemented.
+Not yet implemented
 
 ## MeshSharp.PMX
 
-Not yet implemented.
+Not yet implemented
 
 ## MeshSharp.STL
 
-- Read and Write STL binary files
-- Read and Write STL ASCII files
+* Read and Write STL binary files
+* Read and Write STL ASCII files
 
 
 ## Credits

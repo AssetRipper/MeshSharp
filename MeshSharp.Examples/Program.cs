@@ -1,5 +1,6 @@
 ﻿using MeshSharp.Elements;
 using MeshSharp.FBX;
+using MeshSharp.OBJ;
 using MeshSharp.STL;
 using System;
 
@@ -12,7 +13,8 @@ namespace MeshSharp.Examples
             try
             {
 				//StlConversion();
-				StlExample();
+				//StlExample();
+				ObjExample();
 			}
 			catch(Exception ex)
             {
@@ -36,9 +38,9 @@ namespace MeshSharp.Examples
 
 		static void StlConversion()
         {
-			string pathI = @".\..\..\..\..\file_samples\stl\dev_binoculars_hudShape_1_ascii.stl";
+			string pathI = @".\..\..\..\..\file_samples\stl\dev_binoculars_hudShape_1_binary.stl";
 			string pathO = @".\..\..\..\..\file_samples\stl\dev_binoculars_hudShape_1_out.fbx";
-			Scene scene = StlReader.ReadAscii(pathI);
+			Scene scene = StlReader.ReadBinary(pathI);
 			FbxWriter.WriteAscii(pathO, scene);
 			//for some reason, the mesh gets rotated 90 degrees on the x - axis during this conversion
 		}
@@ -50,6 +52,14 @@ namespace MeshSharp.Examples
 			Scene scene = StlReader.ReadBinary(pathI);
 			StlWriter.WriteAscii(pathO, scene);
 			//this does not result in rotation
+		}
+
+		static void ObjExample()
+		{
+			string pathI = @".\..\..\..\..\file_samples\stl\dev_binoculars_hudShape_1_binary.stl";
+			string pathO = @".\..\..\..\..\file_samples\stl\dev_binoculars_hudShape_1_out.obj";
+			Scene scene = StlReader.ReadBinary(pathI);
+			ObjWriter.Write(pathO, scene);
 		}
 	}
 }
