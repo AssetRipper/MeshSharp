@@ -1,0 +1,30 @@
+﻿<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="MeshSharp.Viewer.MainWindow"
+        Title="MeshSharp.Viewer">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="20"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Menu Grid.Row="0">
+            <MenuItem Header="_File">
+                <MenuItem Header="_Open"></MenuItem>
+                <MenuItem Header="_Exit"></MenuItem>
+            </MenuItem>
+            <MenuItem Header="_Export">
+                <MenuItem Header="_Export As FBX">
+                    <MenuItem Header="_Ascii"></MenuItem>
+                </MenuItem>
+                <MenuItem Header="_Export As OBJ"></MenuItem>
+                <MenuItem Header="_Export As STL">
+                    <MenuItem Header="_Ascii"></MenuItem>
+                    <MenuItem Header="_Binary"></MenuItem>
+                </MenuItem>
+            </MenuItem>
+        </Menu>
+    </Grid>
+</Window>
