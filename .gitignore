@@ -1,5 +1,6 @@
 obj
 bin
 .vs
+.idea
 *.csproj.user
 file_samples

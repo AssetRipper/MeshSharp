@@ -506,7 +506,7 @@ namespace MeshSharp.FBX.Converters
 						layer.Tangents = arrToXYZ(arrToDoubleArray(n.Value as IEnumerable));
 						break;
 					case "TangentsW":
-						//TODO: implement NormalsW
+						//TODO: implement TangentsW
 						break;
 					default:
 						break;
