@@ -4,3 +4,4 @@ bin
 .idea
 *.csproj.user
 file_samples
+.vscode
