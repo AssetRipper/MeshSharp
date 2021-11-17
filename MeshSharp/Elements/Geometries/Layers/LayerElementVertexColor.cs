@@ -1,9 +1,14 @@
-﻿namespace MeshSharp.Elements.Geometries.Layers
+﻿using System.Collections.Generic;
+
+namespace MeshSharp.Elements.Geometries.Layers
 {
+	/// <summary>
+	/// LayerElementColor
+	/// </summary>
 	public class LayerElementVertexColor : LayerElement
 	{
-		public LayerElementVertexColor(Geometry owner) : base(owner)
-		{
-		}
+		public List<XYZM> Colors { get; internal set; } = new List<XYZM>();
+		public List<int> ColorIndex { get; internal set; } = new List<int>();
+		public LayerElementVertexColor(Geometry owner) : base(owner) { }
 	}
 }
