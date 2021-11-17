@@ -359,7 +359,9 @@ namespace MeshSharp.FBX.Converters
 					case LayerElementNormal layerElement:
 						layerType = buildLayerElementNormal(layerElement);
 						break;
-					case LayerElementVertexColor _:
+					case LayerElementVertexColor layerElement:
+						layerType = buildLayerElementVertexColor(layerElement);
+						break;
 					case LayerElementVertexCrease _:
 					case LayerElementEdgeCrease _:
 					case LayerElementUserData _:
@@ -444,6 +446,16 @@ namespace MeshSharp.FBX.Converters
 			node.Nodes.Add(new FbxNode("Version", 102));
 			buildLayerElement(node, layer);
 			node.Nodes.Add(new FbxNode("Normals", layer.Normals.SelectMany(x => x.GetComponents()).ToArray()));
+			return node;
+		}
+
+		public FbxNode buildLayerElementVertexColor(LayerElementVertexColor layer)
+		{
+			FbxNode node = new FbxNode("LayerElementColor", 0);
+			node.Nodes.Add(new FbxNode("Version", 101));
+			buildLayerElement(node, layer);
+			node.Nodes.Add(new FbxNode("Colors", layer.Colors.SelectMany(x => x.GetComponents()).ToArray()));
+			node.Nodes.Add(new FbxNode("ColorIndex", layer.ColorIndex.ToArray()));
 			return node;
 		}
 
