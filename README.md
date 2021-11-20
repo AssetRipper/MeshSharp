@@ -24,7 +24,7 @@ Not yet implemented.
 
 ## MeshSharp.PLY
 
-Not yet implemented
+* Write PLY ASCII files
 
 ## MeshSharp.PMX
 

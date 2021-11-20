@@ -1,6 +1,7 @@
 ﻿using MeshSharp.Elements;
 using MeshSharp.FBX;
 using MeshSharp.OBJ;
+using MeshSharp.PLY;
 using MeshSharp.STL;
 using System;
 
@@ -14,7 +15,8 @@ namespace MeshSharp.Examples
 			{
 				//StlConversion();
 				//StlExample();
-				ObjExample();
+				//ObjExample();
+				PlyExample();
 			}
 			catch (Exception ex)
 			{
@@ -60,6 +62,14 @@ namespace MeshSharp.Examples
 			string pathO = @".\..\..\..\..\file_samples\stl\dev_binoculars_hudShape_1_out.obj";
 			Scene scene = StlReader.ReadBinary(pathI);
 			ObjWriter.Write(pathO, scene);
+		}
+
+		static void PlyExample()
+		{
+			string pathI = @".\..\..\..\..\file_samples\stl\dev_binoculars_hudShape_1_binary.stl";
+			string pathO = @".\..\..\..\..\file_samples\stl\dev_binoculars_hudShape_1_out.ply";
+			Scene scene = StlReader.ReadBinary(pathI);
+			PlyWriter.WriteAscii(pathO, scene);
 		}
 	}
 }
