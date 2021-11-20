@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFrameworks>net5.0;netstandard2.1</TargetFrameworks>
+    <TargetFrameworks>net6.0</TargetFrameworks>
     <LangVersion>latest</LangVersion>
     <Authors>ds5678</Authors>
     <Company>MeshSharp</Company>
@@ -16,11 +16,11 @@
     <Description>3D library in pure C# that allows reading and writing in multiple formats.</Description>
   </PropertyGroup>
 
-  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net5.0|AnyCPU'">
+  <PropertyGroup Condition="'$(Configuration)'=='Debug'">
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
   </PropertyGroup>
 
-  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|net5.0|AnyCPU'">
+  <PropertyGroup Condition="'$(Configuration)'=='Release'">
     <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
   </PropertyGroup>
 

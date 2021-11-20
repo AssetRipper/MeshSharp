@@ -1,8 +1,8 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFrameworks>net5.0;netstandard2.1</TargetFrameworks>
-    <LangVersion>9.0</LangVersion>
+    <TargetFrameworks>net6.0</TargetFrameworks>
+    <LangVersion>latest</LangVersion>
     <Authors>ds5678</Authors>
     <Company>MeshSharp</Company>
     <Version>1.0.0-alpha</Version>
@@ -15,7 +15,7 @@
     <Description>MeshSharp module for the FBX format.</Description>
   </PropertyGroup>
 
-  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net5.0|AnyCPU'">
+  <PropertyGroup Condition="'$(Configuration)'=='Debug'">
     <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
   </PropertyGroup>
 
