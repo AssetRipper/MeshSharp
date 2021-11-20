@@ -1,7 +1,7 @@
 ﻿using MeshSharp.Elements;
 using MeshSharp.Elements.Geometries;
 using MeshSharp.Elements.Geometries.Layers;
-using System;
+using MeshSharp.IO;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -9,16 +9,10 @@ using System.Numerics;
 
 namespace MeshSharp.STL.Writers
 {
-	internal abstract class StlWriterBase : IDisposable
+	internal abstract class StlWriterBase : MeshWriterBase
 	{
-		private bool disposedValue;
-		protected Stream stream;
-
-		public StlWriterBase(Stream stream)
-		{
-			this.stream = stream;
-		}
-		public StlWriterBase(string path) : this(File.Create(path)) { }
+		public StlWriterBase(Stream stream) : base(stream) { }
+		public StlWriterBase(string path) : base(path) { }
 
 		public abstract void Write(Scene scene);
 
@@ -80,28 +74,5 @@ namespace MeshSharp.STL.Writers
 		{
 			return normalElement != null && normalElement.MappingInformationType == MappingMode.ByPolygon && normalElement.ReferenceInformationType == ReferenceMode.Direct;
 		}
-
-		#region Disposal
-		protected virtual void Dispose(bool disposing)
-		{
-			if (!disposedValue)
-			{
-				if (disposing)
-				{
-					stream?.Dispose();
-				}
-
-				stream = null;
-				disposedValue = true;
-			}
-		}
-
-		public void Dispose()
-		{
-			// Do not change this code. Put cleanup code in 'Dispose(bool disposing)' method
-			Dispose(disposing: true);
-			GC.SuppressFinalize(this);
-		}
-		#endregion
 	}
 }
