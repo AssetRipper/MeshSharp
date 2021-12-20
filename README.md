@@ -2,6 +2,12 @@
 
 C# 3D library.
 
+> Warning: API currently unstable. Expect undocumented breaking changes for the foreseeable future
+
+## MeshSharp.DAE
+
+Not yet implemented.
+
 ## MeshSharp.FBX
 
 **Current features**:
