@@ -1,27 +1,43 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
-    <TargetFrameworks>net6.0</TargetFrameworks>
-    <LangVersion>latest</LangVersion>
-    <Authors>ds5678</Authors>
-    <Company>MeshSharp</Company>
-    <Version>1.0.0-alpha</Version>
-    <PackageId>MeshSharp</PackageId>
-    <PackageTags>C# 3D</PackageTags>
-    <RepositoryUrl>https://github.com/ds5678/MeshSharp</RepositoryUrl>
-    <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <RepositoryType>git</RepositoryType>
-    <PackageProjectUrl>https://github.com/ds5678/MeshSharp</PackageProjectUrl>
-    <Copyright>Copyright (c) 2021 ds5678</Copyright>
-    <Description>3D library in pure C# that allows reading and writing in multiple formats.</Description>
-  </PropertyGroup>
+	<PropertyGroup>
+		<TargetFrameworks>net6.0</TargetFrameworks>
+		<LangVersion>latest</LangVersion>
+		<ImplicitUsings>disable</ImplicitUsings>
+		<Authors>ds5678</Authors>
+		<Company>AssetRipper</Company>
+		<Version>1.0.0.0-alpha</Version>
+		<AssemblyVersion>1.0.0.0</AssemblyVersion>
+		<PackageId>MeshSharp</PackageId>
+		<PackageTags>C# 3D</PackageTags>
+		<RepositoryUrl>https://github.com/AssetRipper/MeshSharp</RepositoryUrl>
+		<PackageProjectUrl>https://github.com/AssetRipper/MeshSharp</PackageProjectUrl>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<RepositoryType>git</RepositoryType>
+		<Copyright>Copyright (c) 2022 ds5678</Copyright>
+		<Description>3D library in pure C# that allows reading and writing in multiple formats.</Description>
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+	</PropertyGroup>
 
-  <PropertyGroup Condition="'$(Configuration)'=='Debug'">
-    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
-  </PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)'=='Debug'">
+		<AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+	</PropertyGroup>
 
-  <PropertyGroup Condition="'$(Configuration)'=='Release'">
-    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
-  </PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)'=='Release'">
+		<AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+	</PropertyGroup>
+
+	<ItemGroup Condition=" '$(TargetFramework)' == 'netstandard2.0' ">
+		<PackageReference Include="Half" Version="1.0.0" />
+		<PackageReference Include="System.Memory" Version="4.5.4" />
+	</ItemGroup>
+
+	<PropertyGroup>
+		<GenerateDocumentationFile>true</GenerateDocumentationFile>
+	</PropertyGroup>
+
+	<PropertyGroup>
+		<DocumentationFile>bin\MeshSharp.xml</DocumentationFile>
+	</PropertyGroup>
 
 </Project>

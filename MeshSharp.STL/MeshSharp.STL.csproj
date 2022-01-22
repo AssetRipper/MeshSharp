@@ -1,11 +1,33 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
-    <TargetFramework>net6.0</TargetFramework>
-  </PropertyGroup>
+	<PropertyGroup>
+		<TargetFrameworks>net6.0</TargetFrameworks>
+		<LangVersion>latest</LangVersion>
+		<Authors>ds5678</Authors>
+		<Company>AssetRipper</Company>
+		<Version>1.0.0.0-alpha</Version>
+		<AssemblyVersion>1.0.0.0</AssemblyVersion>
+		<PackageId>MeshSharp.STL</PackageId>
+		<PackageTags>C# 3D stl</PackageTags>
+		<RepositoryUrl>https://github.com/AssetRipper/MeshSharp</RepositoryUrl>
+		<PackageProjectUrl>https://github.com/AssetRipper/MeshSharp</PackageProjectUrl>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<RepositoryType>git</RepositoryType>
+		<Copyright>Copyright (c) 2022 ds5678</Copyright>
+		<Description>MeshSharp module for the STL format.</Description>
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+	</PropertyGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\MeshSharp\MeshSharp.csproj" />
-  </ItemGroup>
+	<ItemGroup>
+		<ProjectReference Include="..\MeshSharp\MeshSharp.csproj" />
+	</ItemGroup>
+
+	<PropertyGroup>
+		<GenerateDocumentationFile>true</GenerateDocumentationFile>
+	</PropertyGroup>
+
+	<PropertyGroup>
+		<DocumentationFile>bin\MeshSharp.STL.xml</DocumentationFile>
+	</PropertyGroup>
 
 </Project>

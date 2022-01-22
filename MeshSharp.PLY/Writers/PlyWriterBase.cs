@@ -21,7 +21,7 @@ namespace MeshSharp.PLY.Writers
 			header.Format = Format;
 			header.VertexCount = processedMesh.VertexCount;
 			header.FaceCount = processedMesh.PolygonCount;
-			using (StreamWriter writer = new StreamWriter(stream, Encoding.ASCII, leaveOpen: true))
+			using (StreamWriter writer = new StreamWriter(stream, Encoding.ASCII, bufferSize: -1, leaveOpen: true))
 			{
 				writer.Write(header.ToAsciiString());
 			}

@@ -424,17 +424,17 @@ namespace MeshSharp.FBX.Converters
 						layer.Name = (string)n.Value;
 						break;
 					case "MappingInformationType":
-#if NET48
-						layer.MappingInformationType = (MappingMode)Enum.Parse(typeof(MappingMode), (string)n.Value);
-#else
+#if NET5_0_OR_GREATER
 						layer.MappingInformationType = Enum.Parse<MappingMode>((string)n.Value);
+#else
+						layer.MappingInformationType = (MappingMode)Enum.Parse(typeof(MappingMode), (string)n.Value);
 #endif
 						break;
 					case "ReferenceInformationType":
-#if NET48
-						layer.ReferenceInformationType = (ReferenceMode)Enum.Parse(typeof(ReferenceMode), (string)n.Value);
-#else
+#if NET5_0_OR_GREATER
 						layer.ReferenceInformationType = Enum.Parse<ReferenceMode>((string)n.Value);
+#else
+						layer.ReferenceInformationType = (ReferenceMode)Enum.Parse(typeof(ReferenceMode), (string)n.Value);
 #endif
 
 						break;

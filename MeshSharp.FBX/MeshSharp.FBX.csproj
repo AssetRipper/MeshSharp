@@ -1,18 +1,21 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFrameworks>net6.0</TargetFrameworks>
-    <LangVersion>latest</LangVersion>
-    <Authors>ds5678</Authors>
-    <Company>MeshSharp</Company>
-    <Version>1.0.0-alpha</Version>
-    <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <PackageProjectUrl>https://github.com/ds5678/MeshSharp</PackageProjectUrl>
-    <RepositoryUrl>https://github.com/ds5678/MeshSharp</RepositoryUrl>
-    <PackageTags>C# 3D fbx</PackageTags>
-    <RepositoryType>git</RepositoryType>
-    <Copyright>Copyright (c) 2021 ds5678</Copyright>
-    <Description>MeshSharp module for the FBX format.</Description>
+	  <TargetFrameworks>net6.0</TargetFrameworks>
+	  <LangVersion>latest</LangVersion>
+	  <Authors>ds5678</Authors>
+	  <Company>AssetRipper</Company>
+	  <Version>1.0.0.0-alpha</Version>
+	  <AssemblyVersion>1.0.0.0</AssemblyVersion>
+	  <PackageId>MeshSharp.FBX</PackageId>
+	  <PackageTags>C# 3D fbx</PackageTags>
+	  <RepositoryUrl>https://github.com/AssetRipper/MeshSharp</RepositoryUrl>
+	  <PackageProjectUrl>https://github.com/AssetRipper/MeshSharp</PackageProjectUrl>
+	  <PackageLicenseExpression>MIT</PackageLicenseExpression>
+	  <RepositoryType>git</RepositoryType>
+	  <Copyright>Copyright (c) 2022 ds5678</Copyright>
+	  <Description>MeshSharp module for the FBX format.</Description>
+	  <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)'=='Debug'">
@@ -22,5 +25,13 @@
   <ItemGroup>
     <ProjectReference Include="..\MeshSharp\MeshSharp.csproj" />
   </ItemGroup>
+
+	<PropertyGroup>
+		<GenerateDocumentationFile>true</GenerateDocumentationFile>
+	</PropertyGroup>
+
+	<PropertyGroup>
+		<DocumentationFile>bin\MeshSharp.FBX.xml</DocumentationFile>
+	</PropertyGroup>
 
 </Project>
