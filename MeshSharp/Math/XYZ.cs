@@ -1,4 +1,4 @@
-﻿namespace MeshSharp
+﻿namespace AssetRipper.MeshSharp
 {
 	public struct XYZ : IVector<XYZ>
 	{

@@ -1,7 +1,7 @@
-﻿using MeshSharp.Elements;
+﻿using AssetRipper.MeshSharp.Elements;
 using System;
 
-namespace MeshSharp.FBX
+namespace AssetRipper.MeshSharp.FBX
 {
 	public interface IFbxReader : IDisposable
 	{

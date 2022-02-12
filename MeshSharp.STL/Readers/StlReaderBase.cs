@@ -1,10 +1,10 @@
-﻿using MeshSharp.Elements;
-using MeshSharp.Elements.Geometries;
-using MeshSharp.Elements.Geometries.Layers;
-using MeshSharp.IO;
+﻿using AssetRipper.MeshSharp.Elements;
+using AssetRipper.MeshSharp.Elements.Geometries;
+using AssetRipper.MeshSharp.Elements.Geometries.Layers;
+using AssetRipper.MeshSharp.IO;
 using System.IO;
 
-namespace MeshSharp.STL.Readers
+namespace AssetRipper.MeshSharp.STL.Readers
 {
 	internal abstract class StlReaderBase : MeshReaderBase
 	{

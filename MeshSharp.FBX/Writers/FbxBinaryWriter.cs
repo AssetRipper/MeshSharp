@@ -1,4 +1,4 @@
-﻿using MeshSharp.FBX.Exceptions;
+﻿using AssetRipper.MeshSharp.FBX.Exceptions;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -6,7 +6,7 @@ using System.IO.Compression;
 using System.Runtime.InteropServices;
 using System.Text;
 
-namespace MeshSharp.FBX
+namespace AssetRipper.MeshSharp.FBX
 {
 	/// <summary>
 	/// Writes an FBX document to a binary stream

@@ -1,4 +1,4 @@
-﻿namespace MeshSharp.FBX
+﻿namespace AssetRipper.MeshSharp.FBX
 {
 	public interface IFbxWriter
 	{

@@ -3,6 +3,7 @@
 	<PropertyGroup>
 		<TargetFrameworks>net6.0</TargetFrameworks>
 		<LangVersion>latest</LangVersion>
+		<RootNamespace>AssetRipper.MeshSharp</RootNamespace>
 		<ImplicitUsings>disable</ImplicitUsings>
 		<Authors>ds5678</Authors>
 		<Company>AssetRipper</Company>

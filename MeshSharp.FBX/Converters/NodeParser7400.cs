@@ -1,4 +1,4 @@
-﻿namespace MeshSharp.FBX.Converters
+﻿namespace AssetRipper.MeshSharp.FBX.Converters
 {
 	/// <inheritdoc/>
 	/// <remarks>

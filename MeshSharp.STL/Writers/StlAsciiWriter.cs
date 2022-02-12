@@ -1,9 +1,9 @@
-﻿using MeshSharp.Elements;
+﻿using AssetRipper.MeshSharp.Elements;
 using System;
 using System.Collections.Generic;
 using System.IO;
 
-namespace MeshSharp.STL.Writers
+namespace AssetRipper.MeshSharp.STL.Writers
 {
 	internal class StlAsciiWriter : StlWriterBase
 	{

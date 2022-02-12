@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Runtime.CompilerServices;
 
-namespace MeshSharp.FBX.Writers
+namespace AssetRipper.MeshSharp.FBX.Writers
 {
 	public class FbxWriterOptions
 	{

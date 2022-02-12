@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace MeshSharp.Elements.Geometries.Layers
+namespace AssetRipper.MeshSharp.Elements.Geometries.Layers
 {
 	/// <summary>
 	/// LayerElementColor

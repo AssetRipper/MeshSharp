@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace MeshSharp.PLY
+namespace AssetRipper.MeshSharp.PLY
 {
 	internal enum PlyFileFormat
 	{

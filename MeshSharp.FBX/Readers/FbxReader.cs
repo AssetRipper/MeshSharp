@@ -1,9 +1,9 @@
-﻿using MeshSharp.Elements;
-using MeshSharp.FBX.Converters;
+﻿using AssetRipper.MeshSharp.Elements;
+using AssetRipper.MeshSharp.FBX.Converters;
 using System;
 using System.IO;
 
-namespace MeshSharp.FBX
+namespace AssetRipper.MeshSharp.FBX
 {
 	public class FbxReader : IFbxReader
 	{

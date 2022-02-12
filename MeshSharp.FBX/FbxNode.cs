@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace MeshSharp.FBX
+namespace AssetRipper.MeshSharp.FBX
 {
 	/// <summary>
 	/// Represents a node in an FBX file

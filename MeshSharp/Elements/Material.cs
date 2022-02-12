@@ -1,4 +1,4 @@
-﻿namespace MeshSharp.Elements
+﻿namespace AssetRipper.MeshSharp.Elements
 {
 	public class Material : Element
 	{

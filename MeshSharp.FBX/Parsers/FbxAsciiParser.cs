@@ -1,10 +1,10 @@
-﻿using MeshSharp.FBX.Exceptions;
+﻿using AssetRipper.MeshSharp.FBX.Exceptions;
 using System;
 using System.IO;
 using System.Text;
 using System.Text.RegularExpressions;
 
-namespace MeshSharp.FBX
+namespace AssetRipper.MeshSharp.FBX
 {
 	/// <summary>
 	/// Reads FBX nodes from a text stream

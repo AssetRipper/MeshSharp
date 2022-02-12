@@ -1,7 +1,7 @@
-﻿using MeshSharp.Elements;
+﻿using AssetRipper.MeshSharp.Elements;
 using System.IO;
 
-namespace MeshSharp.OBJ
+namespace AssetRipper.MeshSharp.OBJ
 {
 	public static class ObjWriter
 	{

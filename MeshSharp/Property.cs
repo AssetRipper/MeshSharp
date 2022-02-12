@@ -1,7 +1,7 @@
-﻿using MeshSharp.Elements;
+﻿using AssetRipper.MeshSharp.Elements;
 using System;
 
-namespace MeshSharp
+namespace AssetRipper.MeshSharp
 {
 	public class Property
 	{

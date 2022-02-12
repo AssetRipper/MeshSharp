@@ -1,8 +1,8 @@
-﻿using MeshSharp.Elements;
-using MeshSharp.STL.Writers;
+﻿using AssetRipper.MeshSharp.Elements;
+using AssetRipper.MeshSharp.STL.Writers;
 using System.IO;
 
-namespace MeshSharp.STL
+namespace AssetRipper.MeshSharp.STL
 {
 	public static class StlWriter
 	{

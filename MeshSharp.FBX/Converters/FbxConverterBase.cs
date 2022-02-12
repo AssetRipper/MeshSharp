@@ -1,11 +1,11 @@
-﻿using MeshSharp.Elements;
-using MeshSharp.Elements.Geometries;
-using MeshSharp.Elements.Geometries.Layers;
+﻿using AssetRipper.MeshSharp.Elements;
+using AssetRipper.MeshSharp.Elements.Geometries;
+using AssetRipper.MeshSharp.Elements.Geometries.Layers;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace MeshSharp.FBX.Converters
+namespace AssetRipper.MeshSharp.FBX.Converters
 {
 	public abstract class FbxConverterBase : IFbxConverter
 	{

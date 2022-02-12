@@ -1,8 +1,8 @@
-﻿using MeshSharp.IO;
+﻿using AssetRipper.MeshSharp.IO;
 using System;
 using System.IO;
 
-namespace MeshSharp.STL.Readers
+namespace AssetRipper.MeshSharp.STL.Readers
 {
 	internal class StlBinaryReader : StlReaderBase
 	{

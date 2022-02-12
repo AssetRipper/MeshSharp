@@ -1,8 +1,8 @@
-﻿using MeshSharp.Elements;
-using MeshSharp.PLY.Writers;
+﻿using AssetRipper.MeshSharp.Elements;
+using AssetRipper.MeshSharp.PLY.Writers;
 using System.IO;
 
-namespace MeshSharp.PLY
+namespace AssetRipper.MeshSharp.PLY
 {
 	public static class PlyWriter
 	{

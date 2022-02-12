@@ -3,6 +3,7 @@
   <PropertyGroup>
     <OutputType>WinExe</OutputType>
     <TargetFramework>net6.0</TargetFramework>
+	  <RootNamespace>AssetRipper.MeshSharp.Viewer</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>

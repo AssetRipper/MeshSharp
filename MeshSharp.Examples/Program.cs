@@ -1,11 +1,11 @@
-﻿using MeshSharp.Elements;
-using MeshSharp.FBX;
-using MeshSharp.OBJ;
-using MeshSharp.PLY;
-using MeshSharp.STL;
+﻿using AssetRipper.MeshSharp.Elements;
+using AssetRipper.MeshSharp.FBX;
+using AssetRipper.MeshSharp.OBJ;
+using AssetRipper.MeshSharp.PLY;
+using AssetRipper.MeshSharp.STL;
 using System;
 
-namespace MeshSharp.Examples
+namespace AssetRipper.MeshSharp.Examples
 {
 	class Program
 	{

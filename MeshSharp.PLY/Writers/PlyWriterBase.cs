@@ -1,11 +1,11 @@
-﻿using MeshSharp.Elements;
-using MeshSharp.Elements.Geometries;
-using MeshSharp.IO;
+﻿using AssetRipper.MeshSharp.Elements;
+using AssetRipper.MeshSharp.Elements.Geometries;
+using AssetRipper.MeshSharp.IO;
 using System.Collections.Generic;
 using System.IO;
 using System.Text;
 
-namespace MeshSharp.PLY.Writers
+namespace AssetRipper.MeshSharp.PLY.Writers
 {
 	internal abstract class PlyWriterBase : MeshWriterBase
 	{

@@ -1,4 +1,4 @@
-﻿namespace MeshSharp.OBJ
+﻿namespace AssetRipper.MeshSharp.OBJ
 {
 	internal class ObjReader
 	{

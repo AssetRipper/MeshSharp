@@ -1,8 +1,8 @@
-﻿using MeshSharp.Elements.Geometries;
+﻿using AssetRipper.MeshSharp.Elements.Geometries;
 using System.Collections.Generic;
 using System.Text;
 
-namespace MeshSharp.OBJ
+namespace AssetRipper.MeshSharp.OBJ
 {
 	internal class ObjMesh
 	{

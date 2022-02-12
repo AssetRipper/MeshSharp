@@ -1,6 +1,6 @@
 ﻿using Xunit.Abstractions;
 
-namespace MeshSharp.Tests
+namespace AssetRipper.MeshSharp.Tests
 {
 	public class XYZMTests : VectorTests<XYZM>
 	{

@@ -2,7 +2,7 @@
 using Xunit;
 using Xunit.Abstractions;
 
-namespace MeshSharp.Tests
+namespace AssetRipper.MeshSharp.Tests
 {
 	public abstract class VectorTests<T>
 		where T : IVector<T>, new()

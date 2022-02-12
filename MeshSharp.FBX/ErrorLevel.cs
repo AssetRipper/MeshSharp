@@ -1,4 +1,4 @@
-﻿namespace MeshSharp.FBX
+﻿namespace AssetRipper.MeshSharp.FBX
 {
 	/// <summary>
 	/// Indicates when a reader should throw errors

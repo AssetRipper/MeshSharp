@@ -1,4 +1,4 @@
-﻿namespace MeshSharp.FBX
+﻿namespace AssetRipper.MeshSharp.FBX
 {
 	/// <summary>
 	/// Enumerates the FBX file versions

@@ -1,7 +1,7 @@
-﻿using MeshSharp.Elements.Geometries.Layers;
+﻿using AssetRipper.MeshSharp.Elements.Geometries.Layers;
 using System.Collections.Generic;
 
-namespace MeshSharp.Elements.Geometries
+namespace AssetRipper.MeshSharp.Elements.Geometries
 {
 	public class Geometry : Element
 	{

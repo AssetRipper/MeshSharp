@@ -1,7 +1,7 @@
 ﻿using System;
 using System.IO;
 
-namespace MeshSharp.IO
+namespace AssetRipper.MeshSharp.IO
 {
 	internal abstract class MeshWriterBase : IDisposable
 	{

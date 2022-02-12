@@ -3,7 +3,7 @@ using System.Buffers.Binary;
 using System.IO;
 using System.Text;
 
-namespace MeshSharp.IO
+namespace AssetRipper.MeshSharp.IO
 {
 	internal class EndianReader : BinaryReader
 	{

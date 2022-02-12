@@ -1,6 +1,6 @@
-﻿using MeshSharp.Elements;
+﻿using AssetRipper.MeshSharp.Elements;
 
-namespace MeshSharp.FBX.Converters
+namespace AssetRipper.MeshSharp.FBX.Converters
 {
 	public class FbxConverter7400 : FbxConverterBase
 	{

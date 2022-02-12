@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace MeshSharp
+namespace AssetRipper.MeshSharp
 {
 	public partial struct Matrix4
 	{

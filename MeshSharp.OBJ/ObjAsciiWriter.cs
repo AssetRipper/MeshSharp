@@ -1,10 +1,10 @@
-﻿using MeshSharp.Elements;
-using MeshSharp.Elements.Geometries;
-using MeshSharp.IO;
+﻿using AssetRipper.MeshSharp.Elements;
+using AssetRipper.MeshSharp.Elements.Geometries;
+using AssetRipper.MeshSharp.IO;
 using System.Collections.Generic;
 using System.IO;
 
-namespace MeshSharp.OBJ
+namespace AssetRipper.MeshSharp.OBJ
 {
 	internal class ObjAsciiWriter : MeshWriterBase
 	{

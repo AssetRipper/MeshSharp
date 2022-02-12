@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 
-namespace MeshSharp.Elements
+namespace AssetRipper.MeshSharp.Elements
 {
 	public class Node : Element
 	{

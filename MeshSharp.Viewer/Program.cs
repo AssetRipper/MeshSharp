@@ -1,7 +1,7 @@
 using Avalonia;
 using System;
 
-namespace MeshSharp.Viewer
+namespace AssetRipper.MeshSharp.Viewer
 {
     internal static class Program
     {

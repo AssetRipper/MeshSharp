@@ -1,6 +1,6 @@
 ﻿using System.Text;
 
-namespace MeshSharp.PLY
+namespace AssetRipper.MeshSharp.PLY
 {
 	internal class PlyHeader
 	{

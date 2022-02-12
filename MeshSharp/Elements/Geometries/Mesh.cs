@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace MeshSharp.Elements.Geometries
+namespace AssetRipper.MeshSharp.Elements.Geometries
 {
 	public class Mesh : Geometry
 	{

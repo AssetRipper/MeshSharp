@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace MeshSharp.FBX.Exceptions
+namespace AssetRipper.MeshSharp.FBX.Exceptions
 {
 
 	[Serializable]

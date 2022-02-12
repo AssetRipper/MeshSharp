@@ -1,10 +1,10 @@
-﻿using MeshSharp.Elements;
-using MeshSharp.IO;
+﻿using AssetRipper.MeshSharp.Elements;
+using AssetRipper.MeshSharp.IO;
 using System;
 using System.Collections.Generic;
 using System.IO;
 
-namespace MeshSharp.STL.Writers
+namespace AssetRipper.MeshSharp.STL.Writers
 {
 	internal class StlBinaryWriter : StlWriterBase
 	{

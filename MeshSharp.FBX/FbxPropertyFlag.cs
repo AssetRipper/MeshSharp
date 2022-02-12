@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace MeshSharp.FBX
+namespace AssetRipper.MeshSharp.FBX
 {
 	[Flags]
 	public enum PropertyFlags : byte

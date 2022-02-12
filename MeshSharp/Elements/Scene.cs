@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace MeshSharp.Elements
+namespace AssetRipper.MeshSharp.Elements
 {
 	public class Scene : Element
 	{

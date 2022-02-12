@@ -1,6 +1,6 @@
 ﻿using System.IO;
 
-namespace MeshSharp.IO
+namespace AssetRipper.MeshSharp.IO
 {
 	internal static class BinaryReaderExtensions
 	{

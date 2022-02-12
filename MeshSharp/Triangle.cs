@@ -1,4 +1,4 @@
-﻿namespace MeshSharp
+﻿namespace AssetRipper.MeshSharp
 {
 	public class Triangle : Polygon
 	{

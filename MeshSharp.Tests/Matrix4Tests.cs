@@ -1,6 +1,6 @@
 ﻿using Xunit;
 
-namespace MeshSharp.Tests
+namespace AssetRipper.MeshSharp.Tests
 {
 	public class Matrix4Tests
 	{

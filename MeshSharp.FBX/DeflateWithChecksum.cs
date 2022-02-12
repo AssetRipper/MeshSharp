@@ -1,7 +1,7 @@
 ﻿using System.IO;
 using System.IO.Compression;
 
-namespace MeshSharp.FBX
+namespace AssetRipper.MeshSharp.FBX
 {
 	/// <summary>
 	/// A wrapper for DeflateStream that calculates the Adler32 checksum of the payload

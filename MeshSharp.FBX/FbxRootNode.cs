@@ -1,4 +1,4 @@
-﻿namespace MeshSharp.FBX
+﻿namespace AssetRipper.MeshSharp.FBX
 {
 	/// <summary>
 	/// A top-level FBX node

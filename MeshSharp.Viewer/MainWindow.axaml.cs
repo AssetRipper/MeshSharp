@@ -2,7 +2,7 @@
 using Avalonia.Controls;
 using Avalonia.Markup.Xaml;
 
-namespace MeshSharp.Viewer
+namespace AssetRipper.MeshSharp.Viewer
 {
 	public class MainWindow : Window
 	{

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Numerics;
 
-namespace MeshSharp.STL.Readers
+namespace AssetRipper.MeshSharp.STL.Readers
 {
 	internal class StlAsciiReader : StlReaderBase
 	{

@@ -1,6 +1,6 @@
-﻿using MeshSharp.Elements;
+﻿using AssetRipper.MeshSharp.Elements;
 
-namespace MeshSharp.FBX
+namespace AssetRipper.MeshSharp.FBX
 {
 	//P : ["PropName", "PropType", "Label(?)", "Flags", __values__, …]
 	public class FbxProperty<T> : FbxProperty

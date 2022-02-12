@@ -3,6 +3,7 @@
 	<PropertyGroup>
 		<TargetFrameworks>net6.0</TargetFrameworks>
 		<LangVersion>latest</LangVersion>
+		<RootNamespace>AssetRipper.MeshSharp.STL</RootNamespace>
 		<Authors>ds5678</Authors>
 		<Company>AssetRipper</Company>
 		<Version>1.0.0.0-alpha</Version>

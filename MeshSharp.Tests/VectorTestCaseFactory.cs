@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace MeshSharp.Tests
+namespace AssetRipper.MeshSharp.Tests
 {
 	public class VectorTestCaseFactory
 	{

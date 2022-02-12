@@ -1,9 +1,9 @@
-﻿using MeshSharp.Elements;
+﻿using AssetRipper.MeshSharp.Elements;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace MeshSharp
+namespace AssetRipper.MeshSharp
 {
 	public class PropertyCollection : IEnumerable<Property>
 	{

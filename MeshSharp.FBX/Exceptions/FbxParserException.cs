@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace MeshSharp.FBX.Exceptions
+namespace AssetRipper.MeshSharp.FBX.Exceptions
 {
 	/// <summary>
 	/// An error with the FBX data input

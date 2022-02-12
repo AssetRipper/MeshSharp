@@ -1,8 +1,8 @@
-﻿using MeshSharp.Elements;
-using MeshSharp.STL.Readers;
+﻿using AssetRipper.MeshSharp.Elements;
+using AssetRipper.MeshSharp.STL.Readers;
 using System.IO;
 
-namespace MeshSharp.STL
+namespace AssetRipper.MeshSharp.STL
 {
 	public static class StlReader
 	{

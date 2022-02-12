@@ -1,9 +1,9 @@
-﻿using MeshSharp.IO;
+﻿using AssetRipper.MeshSharp.IO;
 using System.IO;
 using System.Numerics;
 using System.Text;
 
-namespace MeshSharp.STL
+namespace AssetRipper.MeshSharp.STL
 {
 	internal class StlTriangle : IBinaryReadable, IBinaryWriteable
 	{

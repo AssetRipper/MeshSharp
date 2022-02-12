@@ -1,4 +1,4 @@
-﻿namespace MeshSharp.Elements.Geometries.Layers
+﻿namespace AssetRipper.MeshSharp.Elements.Geometries.Layers
 {
 	public class LayerElementWeight : LayerElement
 	{

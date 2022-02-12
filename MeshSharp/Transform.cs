@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace MeshSharp
+namespace AssetRipper.MeshSharp
 {
 	public class Transform
 	{
