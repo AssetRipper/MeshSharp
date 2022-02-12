@@ -6,9 +6,9 @@
 	  <RootNamespace>AssetRipper.MeshSharp.FBX</RootNamespace>
 	  <Authors>ds5678</Authors>
 	  <Company>AssetRipper</Company>
-	  <Version>1.0.0.0-alpha</Version>
+	  <Version>1.0.0.0</Version>
 	  <AssemblyVersion>1.0.0.0</AssemblyVersion>
-	  <PackageId>MeshSharp.FBX</PackageId>
+	  <PackageId>AssetRipper.MeshSharp.FBX</PackageId>
 	  <PackageTags>C# 3D fbx</PackageTags>
 	  <RepositoryUrl>https://github.com/AssetRipper/MeshSharp</RepositoryUrl>
 	  <PackageProjectUrl>https://github.com/AssetRipper/MeshSharp</PackageProjectUrl>
