@@ -9,7 +9,7 @@
   <ItemGroup>
     <PackageReference Include="Avalonia" Version="0.10.13" />
     <PackageReference Include="Avalonia.Desktop" Version="0.10.13" />
-    <PackageReference Include="Avalonia.Diagnostics" Version="0.10.10" />
+    <PackageReference Include="Avalonia.Diagnostics" Version="0.10.13" />
     <PackageReference Include="OpenTK" Version="5.0.0-pre.6" />
   </ItemGroup>
 
